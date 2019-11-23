@@ -1,0 +1,38 @@
+html,
+body,
+.App,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.wheel {
+  margin: 10px auto;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.1);
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke: mediumseagreen;
+}
+
+.percentage {
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+h2 {
+  margin-bottom: 0;
+}
